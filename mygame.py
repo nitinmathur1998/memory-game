@@ -268,7 +268,6 @@ def main():
     Window.fill((255,255,255))
     pygame.display.set_caption('memory game')
 
-    pygame.draw.rect(Window,(255,0,0),Rectangle1,10)
     drawBackground()
     startGame() 
     pygame.display.update()
